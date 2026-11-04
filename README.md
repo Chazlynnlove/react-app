@@ -1,15 +1,15 @@
 # my design guide
  
 ## colors
-- main:          #00B4D8 (headings, buttons)
-- secondary:     #03045E (accents, little details)
-- light neutral: #FFFF00 (background)
-- dark neutral:  #C49102 (text, borders)
+- main:          #2B4162   (headings, buttons)
+- secondary:     #68D8F4   (accents, little details)
+- light neutral: #F8FAFC   (background)
+- dark neutral:  #282934   (text, borders)
  
 ## sizes
-- heading:     6.5vh
-- subheading:  4vh
-- body:        3vh
+- heading:     4vh
+- subheading:  3.25vh
+- body:        2.5vh
  
 ## fonts
 - headings: something wild (I picked ____ because ____)

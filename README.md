@@ -7,9 +7,9 @@
 - dark neutral:  #C49102 (text, borders)
  
 ## sizes
-- heading:     4vh
-- subheading:  3.25vh
-- body:        2.5vh
+- heading:     6.5vh
+- subheading:  4vh
+- body:        3vh
  
 ## fonts
 - headings: something wild (I picked ____ because ____)

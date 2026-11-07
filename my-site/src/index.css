@@ -1,19 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Chewy&family=Comic+Relief:wght@400;700&display=swap');
+
 :root {
   --main: #230242;
   --secondary: #aa02d8;
   --light: #4fa5fb;
   --dark:#091271;
+
+  --heading: 7vh;
+  --subheading: 2.25vh;
+  --body: 1.5vh;
+
+  --heading-font: "Chewy", cursive;
+  --body-font: "Comic Relief", sans-serif;
 }
 
 body {
   margin: 0;
   background: var(--light);
   color: var(--dark);
+  font-family: var(--body-font);
+  font-size: var(--body);
+  line-height: 2;
 }
 
-h1,
-h2 {
+h1 {
+  font-family: var(--heading-font);
+  font-size: var(--heading);
   color: var(--main);
+}
+
+h2 {
+  font-family: var(--heading-font);
+  font-size: var(--subheading);
+  color: var(--main);
+}
+
+section {
+  max-width: 40rem;
+  margin: 0 auto;
+  padding: 8vh 6vw;
 }
 
 button{

@@ -1,20 +1,19 @@
 # my design guide
  
 ## colors
-- main:          #2B4162   (headings, buttons)
-- secondary:     #68D8F4   (accents, little details)
-- light neutral: #F8FAFC   (background)
-- dark neutral:  #282934   (text, borders)
+- main:          #230242   (headings, buttons)
+- secondary:     #aa02d8   (accents, little details)
+- light neutral: #4fa5fb   (background)
+- dark neutral:  #091271   (text, borders)
  
 ## sizes
-- heading:     4vh
-- subheading:  3.25vh
-- body:        2.5vh
+- heading:     7vh
+- subheading:  2.25vh
+- body:        1.5vh
  
 ## fonts
-- headings: something wild (I picked ____ because ____)
-- body:     something calm and readable
- 
+- headings: something wild (I picked chewy because it was classified under google fonts as artistic, and looks bold to me)
+- body: Comic Relief. It looks silly and playful.
 ## story
 landing -> about me -> things I made -> say hi -> the end
  

@@ -3,7 +3,7 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - main # Triggers deployment when you push to main
+      - main
 
 permissions:
   contents: read
@@ -22,7 +22,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: my-site # Forces all commands to run inside the subfolder
+        working-directory: my-site # Tells GitHub to enter the my-site folder
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -31,8 +31,6 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20
-          cache: 'npm'
-          cache-dependency-path: my-site/package-lock.json
 
       - name: Install dependencies
         run: npm ci
@@ -43,8 +41,8 @@ jobs:
       - name: Upload production artifacts
         uses: actions/upload-pages-artifact@v3
         with:
-          path: my-site/dist # Tells GitHub to upload the built folder from inside my-site
-
+          path: my-site/dist # Tells GitHub where to find the built HTML/JS files
+          
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4

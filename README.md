@@ -15,8 +15,8 @@
 - headings: something wild (I picked chewy because it was classified under google fonts as artistic, and looks bold to me)
 - body: Comic Relief. It looks silly and playful.
 ## story
-landing -> about me -> things I made -> say hi -> the end
+Landing -> about club -> past projects-> this weeks workshops -> the end
  
 ## motion + sound
 - sections fade up as they appear
-- one soft click on the "keep going" button, with a mute toggle
+- A progress bar that fills up as you read through, and a little cat pointing at a nec
